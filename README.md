@@ -25,22 +25,39 @@ O projeto é dividido em três níveis de governança:
 2. **Conta do Cliente:** Gestão de usuários, empresas avaliadas e coordenação de avaliações.
 3. **Empresas Avaliadas:** Escopo onde ocorrem as avaliações, coleta de respostas e geração de resultados.
 
-### Stack Tecnológica (Backend)
-- **Framework:** NestJS
+### Stack Tecnológica (Frontend)
+- **Framework:** React
+- **Build Tool:** Vite
 - **Linguagem:** TypeScript
-- **Banco de Dados & Auth:** Supabase (PostgreSQL)
-- **Testes:** Vitest
+- **Estilização:** CSS (Custom)
+- **Integração:** Supabase (Auth & Database)
 
 ## 📁 Estrutura do Repositório
 
-- `metrica-backend/`: Código fonte da API REST desenvolvida em NestJS.
-  - `src/`: Módulos de negócio (auth, companies, assessments, results, etc.).
-  - `test/`: Testes de integração e E2E.
+- `metrica/`: Código fonte da aplicação frontend desenvolvida com React e Vite.
+  - `src/`: Componentes, hooks, páginas e serviços da interface.
+  - `public/`: Ativos estáticos.
 - `documentacao_atualizada_metrica_system.md`: Especificação funcional e técnica detalhada do sistema.
 
 ## 🛠️ Como Iniciar (Desenvolvimento)
 
-*(Seção a ser preenchida com instruções de instalação, ex: `npm install`, `npm run start:dev`)*
+1. **Acesse a pasta do projeto:**
+   ```bash
+   cd metrica
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse no navegador:**
+   [http://localhost:5173/](http://localhost:5173/)
 
 ---
 **Versão:** 2.0 | **Data:** 27/09/2026
