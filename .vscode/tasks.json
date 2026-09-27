@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Metrica Dev Server",
+			"type": "shell",
+			"command": "cd \"/home/matheus/Área de trabalho/projeto-metrica/Metrica-front/metrica\" && npm run dev"
+		}
+	]
+}
